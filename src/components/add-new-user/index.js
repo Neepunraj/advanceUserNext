@@ -50,6 +50,7 @@ export default function AddNewUser() {
                 <Dialog open={openAddBox} onOpenChange={() => {
                     setopenAddBox(false)
                     setAddNewUserFormData(addNewUserFormInitialState)
+                    setCurrentEditedID(null)
                 }}>
 
                     <DialogContent className="sm:max-w-[425px]">

@@ -28,7 +28,7 @@ import { revalidatePath } from "next/cache";
         }else{
             return {
                 success:false,
-                message:'Unable to Create use Please try again later'
+                message:'Unable to Create user Please try again later'
             }
         }
        
